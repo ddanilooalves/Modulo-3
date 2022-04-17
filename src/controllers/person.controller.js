@@ -22,7 +22,7 @@ const updatePersonagemPaletaController = (req, res) => {
 
 const deletePersonagemController = (req, res) => {
   personagemService.deletePersonagemService(req.params.id);
-  res.send({ message: 'Paleta deletada com sucesso!' });
+  res.send({ message: 'Personagem deletado(a) com sucesso!' });
 };
 
 
